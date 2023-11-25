@@ -1,0 +1,37 @@
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+td, th{
+    border: 1px solid black;
+    text-align: center;
+}
+caption{
+    font-size: 250%;
+}
+
+body{
+    background-image: url("images/chambreprojet.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+    background-color: rgb(18, 64, 214);
+    height:40px;
+    margin-bottom:20px;
+}
+.nav ul li{
+    float:left;
+    list-style:none
+}
+.nav ul li a{
+	color: white;
+    line-height:40px;
+    display:block;
+    padding:0 10px;
+}
+
+.color{
+    color: white;
+    text-shadow: 2px 0 0 black, 2px 2px 0 black, 0 2px 0 black, -2px 2px 0 black, -2px 0 0 black, -2px -2px 0 black, 0 -2px 0 black, 2px -2px 0 black;	
+}

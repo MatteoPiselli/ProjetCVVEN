@@ -1,0 +1,34 @@
+body{
+    background-image: url("images/imaccueil.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-size: 50px;
+    color: #E6984A;
+}
+
+nav {
+    background-color:rgb(226, 150, 10);
+    height: 40px;
+    margin-bottom: 20px;
+  }
+  
+  nav ul li {
+    top: 0;
+    float: left;
+    list-style: none;
+  }
+  
+  nav ul li a {
+    color:white;
+    line-height: 40px;
+    display: block;
+    padding: 0 10px;
+    font-family: arial;
+    text-decoration: none;
+  }
+ 
